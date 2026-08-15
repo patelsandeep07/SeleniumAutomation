@@ -1,0 +1,33 @@
+2026-08-16 01:02:51 [main] INFO com.ui.listeners.TestListner::onStart::63 Test Suite Started 
+2026-08-16 01:03:06 [main] INFO com.ui.listeners.TestListner::onTestStart::30 loginTest 
+2026-08-16 01:03:06 [main] INFO com.ui.listeners.TestListner::onTestStart::31 Verifies if the valid user is able to login into application 
+2026-08-16 01:03:06 [main] INFO com.ui.listeners.TestListner::onTestStart::32 [e2e, sanity] 
+2026-08-16 01:03:08 [main] INFO com.ui.listeners.TestListner::onTestSuccess::38 loginTest Passed 
+2026-08-16 01:03:22 [main] INFO com.ui.listeners.TestListner::onTestStart::30 loginTest 
+2026-08-16 01:03:22 [main] INFO com.ui.listeners.TestListner::onTestStart::31 Verifies if the valid user is able to login into application 
+2026-08-16 01:03:22 [main] INFO com.ui.listeners.TestListner::onTestStart::32 [e2e, sanity] 
+2026-08-16 01:03:24 [main] WARN com.ui.listeners.TestListner::onTestSkipped::57 loginTest Skipped 
+2026-08-16 01:03:37 [main] INFO com.ui.listeners.TestListner::onTestStart::30 loginTest 
+2026-08-16 01:03:37 [main] INFO com.ui.listeners.TestListner::onTestStart::31 Verifies if the valid user is able to login into application 
+2026-08-16 01:03:37 [main] INFO com.ui.listeners.TestListner::onTestStart::32 [e2e, sanity] 
+2026-08-16 01:03:39 [main] WARN com.ui.listeners.TestListner::onTestSkipped::57 loginTest Skipped 
+2026-08-16 01:03:52 [main] INFO com.ui.listeners.TestListner::onTestStart::30 loginTest 
+2026-08-16 01:03:52 [main] INFO com.ui.listeners.TestListner::onTestStart::31 Verifies if the valid user is able to login into application 
+2026-08-16 01:03:52 [main] INFO com.ui.listeners.TestListner::onTestStart::32 [e2e, sanity] 
+2026-08-16 01:03:54 [main] WARN com.ui.listeners.TestListner::onTestSkipped::57 loginTest Skipped 
+2026-08-16 01:04:04 [main] INFO com.ui.listeners.TestListner::onTestStart::30 loginTest 
+2026-08-16 01:04:04 [main] INFO com.ui.listeners.TestListner::onTestStart::31 Verifies if the valid user is able to login into application 
+2026-08-16 01:04:04 [main] INFO com.ui.listeners.TestListner::onTestStart::32 [e2e, sanity] 
+2026-08-16 01:04:06 [main] ERROR com.ui.listeners.TestListner::onTestFailure::44 loginTest Failed 
+2026-08-16 01:04:06 [main] ERROR com.ui.listeners.TestListner::onTestFailure::45 no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}
+  (Session info: chrome=151.0.7922.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [16434011c836c0848e62b134bcf89f03, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.138, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, goog:processID: 1104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 151.0.7922.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 16434011c836c0848e62b134bcf89f03 
+2026-08-16 01:04:06 [main] INFO com.ui.listeners.TestListner::onTestFailure::50 Capturing screenshot for failed tests 
+2026-08-16 01:04:06 [main] INFO com.ui.listeners.TestListner::onTestFailure::52 Attching screenshot for failed tests to HTML report 
+2026-08-16 01:04:07 [main] INFO com.ui.listeners.TestListner::onFinish::68 Test Suite Completed 
