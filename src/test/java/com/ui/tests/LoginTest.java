@@ -25,20 +25,20 @@ public class LoginTest extends TestBase {
 
 	}
 
-//	@Test(description = "Verifies if the valid user is able to login into application", groups = { "e2e",
-//			"sanity" }, dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestCSVDataProvider")
-//	public static void loginTestCSV(User user) {
-//
-//		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),
-//				"Sandeep Patel");
-//	}
-//
-//	@Test(description = "Verifies if the valid user is able to login into application", groups = { "e2e",
-//			"sanity" }, dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestExcelDataProvider")
-//	public static void loginTestExcel(User user) {
-//
-//		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),
-//				"Sandeep Patel");
-//	}
+	@Test(description = "Verifies if the valid user is able to login into application", groups = { "e2e",
+			"sanity" }, dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestCSVDataProvider")
+	public static void loginTestCSV(User user) {
+
+		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),
+				"Sandeep Patel");
+	}
+
+	@Test(description = "Verifies if the valid user is able to login into application", groups = { "e2e",
+			"sanity" }, dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestExcelDataProvider")
+	public static void loginTestExcel(User user) {
+
+		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),
+				"Sandeep Patel");
+	}
 
 }
