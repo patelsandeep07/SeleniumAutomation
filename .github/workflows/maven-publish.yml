@@ -1,11 +1,7 @@
 name: Test Auotmation workflow
 
 on:
-  push:
-    branches:
-      - main 
-  schedule:
-    - cron: 00 06 * * * 
+  push: 
   workflow_dispatch:
 
 jobs:
