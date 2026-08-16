@@ -1,33 +1,6 @@
-2026-08-16 12:02:17 [main] INFO com.ui.listeners.TestListner::onStart::63 Test Suite Started 
-2026-08-16 12:02:21 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::30 loginTest 
-2026-08-16 12:02:21 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::31 Verifies if the valid user is able to login into application 
-2026-08-16 12:02:21 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::32 [e2e, sanity] 
-2026-08-16 12:02:23 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestSuccess::38 loginTest Passed 
-2026-08-16 12:02:27 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::30 loginTest 
-2026-08-16 12:02:27 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::31 Verifies if the valid user is able to login into application 
-2026-08-16 12:02:27 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::32 [e2e, sanity] 
-2026-08-16 12:02:28 [TestNG-test-UI Automation Test-1] WARN com.ui.listeners.TestListner::onTestSkipped::57 loginTest Skipped 
-2026-08-16 12:02:31 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::30 loginTest 
-2026-08-16 12:02:31 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::31 Verifies if the valid user is able to login into application 
-2026-08-16 12:02:31 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::32 [e2e, sanity] 
-2026-08-16 12:02:36 [TestNG-test-UI Automation Test-1] WARN com.ui.listeners.TestListner::onTestSkipped::57 loginTest Skipped 
-2026-08-16 12:02:53 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::30 loginTest 
-2026-08-16 12:02:53 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::31 Verifies if the valid user is able to login into application 
-2026-08-16 12:02:53 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::32 [e2e, sanity] 
-2026-08-16 12:03:01 [TestNG-test-UI Automation Test-1] WARN com.ui.listeners.TestListner::onTestSkipped::57 loginTest Skipped 
-2026-08-16 12:03:15 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::30 loginTest 
-2026-08-16 12:03:15 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::31 Verifies if the valid user is able to login into application 
-2026-08-16 12:03:15 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestStart::32 [e2e, sanity] 
-2026-08-16 12:03:27 [TestNG-test-UI Automation Test-1] ERROR com.ui.listeners.TestListner::onTestFailure::44 loginTest Failed 
-2026-08-16 12:03:27 [TestNG-test-UI Automation Test-1] ERROR com.ui.listeners.TestListner::onTestFailure::45 no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}
-  (Session info: chrome=151.0.7922.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a8483c007676771c5c88bf903e2a17ca, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.138, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\SANDEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52298}, goog:processID: 22352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52298/devtoo..., se:cdpVersion: 151.0.7922.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a8483c007676771c5c88bf903e2a17ca 
-2026-08-16 12:03:27 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestFailure::50 Capturing screenshot for failed tests 
-2026-08-16 12:03:29 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListner::onTestFailure::52 Attching screenshot for failed tests to HTML report 
-2026-08-16 12:03:30 [main] INFO com.ui.listeners.TestListner::onFinish::68 Test Suite Completed 
+2026-08-16 20:01:57 [main] INFO com.ui.listeners.TestListner::onStart::63 Test Suite Started 
+2026-08-16 20:01:59 [main] INFO com.ui.listeners.TestListner::onTestStart::30 loginTest 
+2026-08-16 20:01:59 [main] INFO com.ui.listeners.TestListner::onTestStart::31 Verify if the proper error message is shown for the user when they enter invalid credentials 
+2026-08-16 20:01:59 [main] INFO com.ui.listeners.TestListner::onTestStart::32 [smoke, e2e, sanity] 
+2026-08-16 20:02:00 [main] INFO com.ui.listeners.TestListner::onTestSuccess::38 loginTest Passed 
+2026-08-16 20:02:00 [main] INFO com.ui.listeners.TestListner::onFinish::68 Test Suite Completed 
