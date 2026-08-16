@@ -1,8 +1,7 @@
 name: Test Auotmation workflow
 
 on:
-  schedule:
-    - cron: 00 06 * * * 
+  push: 
   workflow_dispatch:
 
 jobs:
@@ -28,14 +27,14 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v7.0.1
       with:
-       name: Test log
+       name: logs-${{ matrix.os }}
        path: logs/
 
     - name: Upload test report
       if: always()
       uses: actions/upload-artifact@v7.0.1
       with:
-       name: Test log
+       name: report-${{ matrix.os }}
        path: report.html
     
     - name: Upload test report
